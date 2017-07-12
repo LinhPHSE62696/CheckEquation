@@ -14,9 +14,9 @@ public class CheckEquation {
     static private int a, b, c;
 
     public CheckEquation() {
-        a = 4;
-        b = 4;
-        c = 5;
+        a = 1;
+        b = 1;
+        c = 1;
     }
 
     static public boolean checkEquationIsValid() {
