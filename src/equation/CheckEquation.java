@@ -11,15 +11,16 @@ package equation;
  */
 public class CheckEquation {
 
-    private int a, b, c;
+    static private int a, b, c;
 
     public CheckEquation() {
-        a = 2;
+        a = 4;
         b = 4;
-        c = 2;
+        c = 5;
     }
 
-    public boolean checkEquationIsValid() {
+    static public boolean checkEquationIsValid() {
+        a = b = c= 3;
         boolean check = true;
         if (a == 0) {
             if (b == 0) {
@@ -37,6 +38,6 @@ public class CheckEquation {
     }
     
     public static void main(String args[]) {
-        
+        System.out.println(checkEquationIsValid());
     }
 }
