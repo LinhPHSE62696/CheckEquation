@@ -14,13 +14,12 @@ public class CheckEquation {
     static private int a, b, c;
 
     public CheckEquation() {
-        a = 5;
-        b = 5;
-        c = 5;
+        a = 7;
+        b = 7;
+        c = 7;
     }
 
     static public boolean checkEquationIsValid() {
-        a = b = c= 3;
         boolean check = true;
         if (a == 0) {
             if (b == 0) {
